@@ -17,7 +17,24 @@ string makegoodap1(string s){
     return ans;
 }
 
-int main(){
+string makegoodap2(string s){
+    int left=0;
+    for(int right=0;right<s.size();right++){
+        if(left>0 and abs(s[right]-s[left-1])==32)
+            left--;
+        else{
+            s[left]=s[right];
+            left++;
+        }
+    }
+    
+    return s.substr(0,left);
+}
 
+int main(){
+    string s="LeEetcode";
+    string ans1=makegoodap1(s);
+    string ans2=makegoodap2(s);
+    cout<<ans1<<" "<<ans2;
     return 0;
 }
