@@ -1,8 +1,10 @@
 # 30 Days Leetcoding 
-<img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg"/>
+
+<a href="/" ><img src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg"/></a>
+
 ## Problem a day for 30 days
 
-Hello I am DaaliVardhan,
+### Hello I am DaaliVardhan,
 
 Leetcoding is the new way to learn to code.
 
