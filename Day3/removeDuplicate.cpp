@@ -19,7 +19,7 @@ string removeDuplicate(string s){
 }
 string removeDuplicate_(string s){
     int left=0;
-    for(int right=0;right<s.size();right++){
+    for(int right=0;right<s.size();right++){        
         if(left!=0 && s[left-1]==s[right])
             left--;
         else{
